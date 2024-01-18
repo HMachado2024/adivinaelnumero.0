@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="guess_index.css">
+  <title>Adivina el Número</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Adivina el Número</h1>
+    <p>Introduce un número entre 1 y 100:</p>
+   
+    <input type="number" id="guessInput" onkeydown="handleKeyPress(event)">
+    <button onclick="checkGuess()">Adivinar</button>
+    <p id="message"></p>
+    <button onclick="resetGame()">Reiniciar Juego</button>
+  </div>
+  <script src="guess_index.js"></script>
+</body>
+</html>
