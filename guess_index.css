@@ -17,6 +17,11 @@ footer {
   float: right;
 }
 
+.logo img {
+  width: 50px; /* Ajusta el tamaño según tus necesidades */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
 /* Estilos adicionales para mejorar la presentación general */
 .container {
   max-width: 800px;
@@ -48,4 +53,3 @@ button:hover {
   background-color: #2980b9;
 }
 
-  
