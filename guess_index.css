@@ -6,7 +6,7 @@ footer {
   text-align: center;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 10%;
 }
 
 .copyright {
@@ -18,7 +18,7 @@ footer {
 }
 
 .logo img {
-  width: 50px; /* Ajusta el tamaño según tus necesidades */
+  width: 5px; /* Ajusta el tamaño según tus necesidades */
   height: auto; /* Mantiene la proporción de la imagen */
 }
 
